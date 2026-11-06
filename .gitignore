@@ -1,0 +1,35 @@
+SQLite database files
+
+*.db *.sqlite *.sqlite3
+
+SQLite temporary and journal files
+
+*.db-journal *.sqlite-journal *.db-wal *.db-shm *.sqlite-wal *.sqlite-shm
+
+Database backups
+
+*.bak *.backup *.dump
+
+Temporary files
+
+*.tmp *.temp *.log
+
+Operating system files
+
+.DS_Store Thumbs.db desktop.ini
+
+IDE and editor settings
+
+.vscode/ .idea/
+
+Environment variables and secrets
+
+.env .env.*
+
+Python cache (if Python is used alongside SQL)
+
+pycache/ *.py[cod]
+
+Jupyter Notebook checkpoints (if applicable)
+
+.ipynb_checkpoints/
