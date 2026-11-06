@@ -2,6 +2,7 @@
 
 CREATE TABLE IF NOT EXISTS game_entry 
     (id varchar(256) PRIMARY KEY,
+    timestamp varchar(256) NOT NULL,
     name_person varchar(256) NOT NULL,
     age_person int NOT NULL,
     event varchar(256) NOT NULL,
